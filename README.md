@@ -1,4 +1,4 @@
-## ReactNative && Typescript Skeleton
+# ReactNative && Typescript Skeleton
 
 This is the mobile application skeleton for react-native and typescript
 
