@@ -12,7 +12,7 @@ const getSpawnParameters = (name) => {
     if(headCommand == "node" || headCommand == "react-native") {
         parameters = args.slice(1);
     } else {
-        headCommand = "yarn";
+        headCommand = "npm";
         parameters = ["run"].concat(args);  
     }
     return {

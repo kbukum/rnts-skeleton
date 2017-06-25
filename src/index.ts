@@ -6,5 +6,5 @@
 import {
   AppRegistry,
 } from 'react-native';
-import Application from "./app";
+import Application from "./app/index";
 AppRegistry.registerComponent('rnts_skeleton', () => Application);

@@ -3,29 +3,33 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"start": "node ./tools/start.js",
-		"dev": "node node_modules/react-native/local-cli/cli.js start --transformer node_modules/react-native-typescript-transformer --sourceExts ts,tsx",
-		"ios": "react-native run-ios --no-packager",
-		"test": "jest"
+		"start": "node ./tools/start_ios.js",
+		"start-android": "node ./tools/start_android.js",
+		"debug": "rndebugger-open",
+		"dev": "node node_modules/react-native/local-cli/cli.js start",
+		"ios": "node node_modules/react-native/local-cli/cli.js run-ios --no-packager",
+		"android": "node node_modules/react-native/local-cli/cli.js run-android  --no-packager",
+		"test": "jest --config jest.json"
 	},
 	"dependencies": {
-		"create-react-class": "^15.6.0",
-		"prop-types": "^15.5.10",
+		"prop-types": "15.5.10",
 		"react": "16.0.0-alpha.12",
-		"react-native": "^0.45.1"
+		"react-native": "0.45.1"
 	},
 	"devDependencies": {
-		"@types/jest": "^20.0.2",
-		"@types/react": "^15.0.31",
-		"@types/react-native": "^0.44.12",
+		"@types/prop-types": "15.5.1",
+		"@types/jest": "20.0.2",
+		"@types/react": "15.0.29",
+		"@types/react-native": "0.44.11",
 		"babel-jest": "^20.0.3",
 		"babel-preset-react-native": "2.0.0",
 		"jest": "20.0.4",
-		"react-native-typescript-transformer": "^1.0.11",
+		"react-native-debugger-open": "0.3.11",
+		"react-native-typescript-transformer": "1.0.12",
 		"react-test-renderer": "16.0.0-alpha.12",
-		"ts-jest": "^20.0.6",
-		"tslint": "^5.4.3",
-		"typescript": "^2.3.4"
+		"ts-jest": "20.0.6",
+		"tslint": "5.4.3",
+		"typescript": "2.3.4"
 	},
 	"jest": {
 		"preset": "react-native",

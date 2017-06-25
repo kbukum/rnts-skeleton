@@ -55,5 +55,9 @@ fastlane/screenshots
 .jest
 .tmp
 /package-lock.json
-/yarn-lock
 /coverage
+/src/**/*.js
+/src/**/*.jsx
+/src/**/*.js.map
+/src/**/*.jsx.map
+/yarn.lock
