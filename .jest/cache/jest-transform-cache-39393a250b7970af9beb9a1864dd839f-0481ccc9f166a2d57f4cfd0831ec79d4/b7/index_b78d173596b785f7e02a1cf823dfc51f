@@ -1,0 +1,34 @@
+'use strict';require('ts-jest').install();'use strict';var cov_x3q3ltb49 = function () {var path = '/Users/kamilbukum/DEV/personal/rnts_skeleton/src/app/index.tsx',hash = '5a87ad6108d601eecbb883aeed9c499e553d42db',global = new Function('return this')(),gcv = '__coverage__',coverageData = { path: '/Users/kamilbukum/DEV/personal/rnts_skeleton/src/app/index.tsx', statementMap: { '0': { start: { line: 5, column: 8 }, end: { line: 16, column: 15 } }, '1': { start: { line: 19, column: 15 }, end: { line: 36, column: 2 } } }, fnMap: { '0': { name: '(anonymous_0)', decl: { start: { line: 4, column: 4 }, end: { line: 4, column: 5 } }, loc: { start: { line: 4, column: 13 }, end: { line: 17, column: 5 } }, line: 4 } }, branchMap: {}, s: { '0': 0, '1': 0 }, f: { '0': 0 }, b: {}, inputSourceMap: { version: 3, file: 'index.jsx', sourceRoot: '', sources: ['index.tsx'], names: [], mappings: 'AAAA,OAAO,KAAK,EAAE,EAAE,SAAS,EAAE,MAAM,OAAO,CAAC;AAEzC,OAAO,EACL,UAAU,EACV,IAAI,EACJ,IAAI,EACL,MAAM,cAAc,CAAC;AAEtB,MAAM,CAAC,OAAO,oBAAqB,SAAQ,SAAS;IAClD,MAAM;QACJ,MAAM,CAAC,CACL,CAAC,IAAI,CAAC,KAAK,CAAC,CAAC,MAAM,CAAC,SAAS,CAAC,CAC5B;QAAA,CAAC,IAAI,CAAC,KAAK,CAAC,CAAC,MAAM,CAAC,OAAO,CAAC,CAC1B;;QACF,EAAE,IAAI,CACN;QAAA,CAAC,IAAI,CAAC,KAAK,CAAC,CAAC,MAAM,CAAC,YAAY,CAAC,CAC/B;;QACF,EAAE,IAAI,CACN;QAAA,CAAC,IAAI,CAAC,KAAK,CAAC,CAAC,MAAM,CAAC,YAAY,CAAC,CAC/B;gCAAsB,CAAC,IAAI,CAC3B;;QACF,EAAE,IAAI,CACR;MAAA,EAAE,IAAI,CAAC,CACR,CAAC;IACJ,CAAC;CACF;AAED,MAAM,MAAM,GAAG,UAAU,CAAC,MAAM,CAAC;IAC/B,SAAS,EAAE;QACT,IAAI,EAAE,CAAC;QACP,cAAc,EAAE,QAAQ;QACxB,UAAU,EAAE,QAAQ;QACpB,eAAe,EAAE,SAAS;KAC3B;IACD,OAAO,EAAE;QACP,QAAQ,EAAE,EAAE;QACZ,SAAS,EAAE,QAAQ;QACnB,MAAM,EAAE,EAAE;KACX;IACD,YAAY,EAAE;QACZ,SAAS,EAAE,QAAQ;QACnB,KAAK,EAAE,SAAS;QAChB,YAAY,EAAE,CAAC;KAChB;CACF,CAAC,CAAC', sourcesContent: ['import React, { Component } from \'react\';\n\nimport {\n  StyleSheet,\n  Text,\n  View\n} from \'react-native\';\n\nexport default class rnts_skeleton extends Component {\n  render() {\n    return (\n      <View style={styles.container}>\n        <Text style={styles.welcome}>\n          Test\n        </Text>\n        <Text style={styles.instructions}>\n          To get started, edit index.ios.js\n        </Text>\n        <Text style={styles.instructions}>\n          Press Cmd+R to reload,{\'\\n\'}\n          Cmd+D or shake for dev menu\n        </Text>\n      </View>\n    );\n  }\n}\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    justifyContent: \'center\',\n    alignItems: \'center\',\n    backgroundColor: \'#F5FCFF\',\n  },\n  welcome: {\n    fontSize: 20,\n    textAlign: \'center\',\n    margin: 10,\n  },\n  instructions: {\n    textAlign: \'center\',\n    color: \'#333333\',\n    marginBottom: 5,\n  },\n});'] }, _coverageSchema: '332fd63041d2c1bcb487cc26dd0d5f7d97098a6c' },coverage = global[gcv] || (global[gcv] = {});if (coverage[path] && coverage[path].hash === hash) {return coverage[path];}coverageData.hash = hash;return coverage[path] = coverageData;}();Object.defineProperty(exports, "__esModule", { value: true });var _createClass = function () {function defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}return function (Constructor, protoProps, staticProps) {if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;};}();var _react = require('react');var _react2 = _interopRequireDefault(_react);
+var _reactNative = require('react-native');function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self, call) {if (!self) {throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call && (typeof call === "object" || typeof call === "function") ? call : self;}function _inherits(subClass, superClass) {if (typeof superClass !== "function" && superClass !== null) {throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;}var
+rnts_skeleton = function (_Component) {_inherits(rnts_skeleton, _Component);function rnts_skeleton() {_classCallCheck(this, rnts_skeleton);return _possibleConstructorReturn(this, (rnts_skeleton.__proto__ || Object.getPrototypeOf(rnts_skeleton)).apply(this, arguments));}_createClass(rnts_skeleton, [{ key: 'render', value: function render()
+    {++cov_x3q3ltb49.f[0];++cov_x3q3ltb49.s[0];
+      return _react2.default.createElement(_reactNative.View, { style: styles.container },
+      _react2.default.createElement(_reactNative.Text, { style: styles.welcome }, 'Test'),
+
+
+      _react2.default.createElement(_reactNative.Text, { style: styles.instructions }, 'To get started, edit index.ios.js'),
+
+
+      _react2.default.createElement(_reactNative.Text, { style: styles.instructions }, 'Press Cmd+R to reload,',
+      '\n', 'Cmd+D or shake for dev menu'));
+
+
+
+    } }]);return rnts_skeleton;}(_react.Component);exports.default = rnts_skeleton;
+
+var styles = (++cov_x3q3ltb49.s[1], _reactNative.StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF' },
+
+  welcome: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10 },
+
+  instructions: {
+    textAlign: 'center',
+    color: '#333333',
+    marginBottom: 5 } }));

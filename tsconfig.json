@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "*": [
+        "./src/*"
+      ],
+      "native-base": [
+        "./typings/globals/native-base.d.ts"
+      ]
+    },
+    "moduleResolution": "node",
+    "target": "es2015",
+    "module": "es2015",
+    "jsx": "preserve",
+    "rootDir": "./src",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+    "allowJs": true,
+    "sourceRoot": "src",
+    "inlineSourceMap": true
+  },
+  "include": [
+    "typings/**/*",
+    "src/**/*"
+  ],
+  "exclude": [
+    "Gruntfile.js",
+    "__tests__",
+    "index.android.js",
+    "index.ios.js",
+    "build",
+    "tools",
+    "node_modules"
+  ]
+}
