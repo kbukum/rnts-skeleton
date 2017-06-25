@@ -1,5 +1,4 @@
 ## ReactNative && Typescript Skeleton
-# sanaiyi-mobile
 
 This is the mobile application skeleton for react-native and typescript
 
