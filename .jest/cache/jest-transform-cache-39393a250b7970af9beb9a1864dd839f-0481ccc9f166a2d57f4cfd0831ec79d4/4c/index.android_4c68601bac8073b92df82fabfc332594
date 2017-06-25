@@ -1,9 +1,0 @@
-'use strict';require('ts-jest').install();'use strict';require('react-native');
-var _react=require('react');var _react2=_interopRequireDefault(_react);
-var _indexAndroid=require('../index.android.js');var _indexAndroid2=_interopRequireDefault(_indexAndroid);
-
-var _reactTestRenderer=require('react-test-renderer');var _reactTestRenderer2=_interopRequireDefault(_reactTestRenderer);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}
-it('renders correctly',function(){
-var tree=_reactTestRenderer2.default.create(_react2.default.createElement(_indexAndroid2.default,null));
-});
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguYW5kcm9pZC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbImluZGV4LmFuZHJvaWQudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJhQUFBLEFBQU8sQUFBYyxBQUFDO0FBQ3RCLEFBQU8sQUFBSyxBQUFNLEFBQU8sQUFBQztBQUMxQixBQUFPLEFBQUssQUFBTSxBQUFxQixBQUFDLEFBRXhDLEFBQTJEOztBQUMzRCxBQUFPLEFBQVEsQUFBTSxBQUFxQixBQUFDO0FBRTNDLEFBQUUsR0FBQyxBQUFtQixvQkFBRTtBQUN0QixHQUFNLEFBQUksTUFBRyxBQUFRLDRCQUFDLEFBQU0sT0FDMUIsZ0JBQUMsQUFBSyxxQ0FBRyxBQUNWLEFBQUMsQUFDSjtBQUFDLEFBQUMsQUFBQyJ9

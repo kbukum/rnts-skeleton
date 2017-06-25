@@ -51,3 +51,9 @@ buck-out/
 fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
+.idea
+.jest
+.tmp
+/package-lock.json
+/yarn-lock
+/coverage
