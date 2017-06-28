@@ -9,18 +9,18 @@ const getSpawnParameters = (name) => {
     let args = command.split(" ");
     let headCommand = args[0];
     let parameters;
-    if(headCommand == "node" || headCommand == "react-native") {
+    if(headCommand === "node" || headCommand === "react-native") {
         parameters = args.slice(1);
     } else {
         headCommand = "npm";
-        parameters = ["run"].concat(args);  
+        parameters = ["run"].concat(name);
     }
     return {
         command: headCommand,
         parameters: parameters
     }
-}
+};
 
 module.exports = {
     getSpawnParameters: getSpawnParameters
-}
+};
