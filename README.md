@@ -27,11 +27,6 @@ npm install
 ```
 
 
-* if react-native-debugger not attached then you can use below command to attach it as rn-default-debugger.
-```bash
-npm run debug
-```
-
 ### Join Development
 
 1. Start npm :)
