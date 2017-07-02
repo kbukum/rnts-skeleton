@@ -6,3 +6,4 @@
 * fixed start problems.
 * added **build** command.
 * added **build:watch** command.
+* added **reset** command. 

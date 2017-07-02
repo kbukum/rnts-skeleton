@@ -15,7 +15,8 @@
 		"build:ts:watch": "tsc -w -p .",
 		"sync:watch": "grunt sync:dev",
 		"sync": "grunt sync:prod",
-		"test": "jest --config jest.json"
+		"test": "jest --config jest.json",
+		"reset": "rimraf ./build && rimraf ./coverage && rimraf ./jest && rimraf ./ios/build && rimraf ./node_modules && yarn"
 	},
 	"dependencies": {
 		"prop-types": "15.5.10",
@@ -36,6 +37,7 @@
 		"react-native-debugger-open": "0.3.11",
 		"react-native-typescript-transformer": "1.0.12",
 		"react-test-renderer": "16.0.0-alpha.12",
+		"rimraf": "^2.6.1",
 		"ts-jest": "20.0.6",
 		"tslint": "5.4.3",
 		"typescript": "2.3.4"

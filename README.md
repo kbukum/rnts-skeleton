@@ -53,3 +53,10 @@ yarn build
 yarn build:watch
 ```
 
+
+## Reset Project
+
+```bash
+yarn reset
+```
+
