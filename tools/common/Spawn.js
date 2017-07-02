@@ -1,6 +1,6 @@
 let colors = require('colors');
 module.exports = (cmd, parameters, task) => {
-    const { spawn } = require("child_process");
+    const spawn = require('child_process').spawn;
     if(task.stdio && task.stdio === 'inherit') {
         spawn(cmd, parameters, { stdio: 'inherit' });
         return;
@@ -9,7 +9,7 @@ module.exports = (cmd, parameters, task) => {
     task.tag = task.tag || task.command;
     command.stdout.on('data', (data) => {
         var dataStr = data.toString();
-        if(dataStr.indexOf("error TS") !== -1) {
+        if(dataStr.indexOf("error TS") != -1) {
             dataStr = dataStr.red;
         }
         console.log(`${task.tag[task.pColor]}: ` + dataStr);

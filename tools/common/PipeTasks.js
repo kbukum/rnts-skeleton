@@ -57,6 +57,6 @@ const PipeTasks = (tasks) => {
         }
         }
     }
-};
+}
 
 module.exports = PipeTasks;
