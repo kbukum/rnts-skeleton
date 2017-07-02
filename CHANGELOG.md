@@ -4,3 +4,5 @@
 * fixed test problems.
 * added start for **ios** and **android**
 * fixed start problems.
+* added **build** command.
+* added **build:watch** command.

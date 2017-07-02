@@ -9,6 +9,12 @@
 		"dev": "node node_modules/react-native/local-cli/cli.js start",
 		"ios": "node node_modules/react-native/local-cli/cli.js run-ios --no-packager",
 		"android": "node node_modules/react-native/local-cli/cli.js run-android  --no-packager",
+		"build": "node ./tools/build.js",
+		"build:watch": "node ./tools/build_watch.js",
+		"build:ts": "tsc -p .",
+		"build:ts:watch": "tsc -w -p .",
+		"sync:watch": "grunt sync:dev",
+		"sync": "grunt sync:prod",
 		"test": "jest --config jest.json"
 	},
 	"dependencies": {
@@ -17,12 +23,15 @@
 		"react-native": "0.45.1"
 	},
 	"devDependencies": {
-		"@types/prop-types": "15.5.1",
 		"@types/jest": "20.0.2",
+		"@types/prop-types": "15.5.1",
 		"@types/react": "15.0.29",
 		"@types/react-native": "0.44.11",
 		"babel-jest": "^20.0.3",
 		"babel-preset-react-native": "2.0.0",
+		"grunt": "^1.0.1",
+		"grunt-contrib-watch": "^1.0.0",
+		"grunt-sync": "^0.6.2",
 		"jest": "20.0.4",
 		"react-native-debugger-open": "0.3.11",
 		"react-native-typescript-transformer": "1.0.12",

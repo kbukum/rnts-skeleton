@@ -23,20 +23,33 @@ brew update && brew cask install react-native-debugger
 3. Install Dependencies
 
 ```bash
-npm install
+yarn
 ```
 
 
 ### Join Development
 
-1. Start npm :)
+1. Start
 
 ```bash
-npm start
+yarn start
 ```
 
 ### Test Project
 
 ```bash
-npm test
+yarn test
 ```
+
+## Build Project
+
+```bash
+yarn build
+```
+
+## Build Project in @watch mode
+
+```bash
+yarn build:watch
+```
+
