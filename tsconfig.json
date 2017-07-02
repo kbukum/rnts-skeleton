@@ -13,6 +13,7 @@
     "target": "es2015",
     "module": "es2015",
     "jsx": "preserve",
+    "outDir": "./build",
     "rootDir": "./src",
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
